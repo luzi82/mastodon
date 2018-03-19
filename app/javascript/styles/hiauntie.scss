@@ -1,2 +1,17 @@
 @import 'column_width_mod';
+
+// $base-shadow-color: $black !default;
+// $base-overlay-background: $black !default;
+// $base-border-color: $white !default;
+// $simple-background-color: $white !default;
+$primary-text-color: #000000 !default;
+// $valid-value-color: $success-green !default;
+// $error-value-color: $error-red !default;
+
+$ui-base-color: #555555;
+$ui-base-lighter-color: #aaaaaa;
+$ui-primary-color: #111111;
+$ui-secondary-color: #333333;
+$ui-highlight-color: #111111;
+
 @import 'application';
