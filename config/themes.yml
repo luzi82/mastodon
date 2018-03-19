@@ -1,4 +1,4 @@
-default: styles/column_width.scss
+default: styles/default.scss
 hiauntie: styles/hiauntie.scss
 mastodon: styles/application.scss
 column_width: styles/column_width.scss
