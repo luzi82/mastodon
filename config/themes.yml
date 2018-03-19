@@ -1,2 +1,2 @@
-default: styles/hiauntie.scss
-mastodon: styles/application.scss
+default: styles/application.scss
+column_width: styles/column_width.scss
