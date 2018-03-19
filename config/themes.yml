@@ -1,3 +1,5 @@
 default: styles/hiauntie.scss
+hiauntie: styles/hiauntie.scss
+hiauntie_dev: styles/hiauntie_dev.scss
 mastodon: styles/application.scss
 column_width: styles/column_width.scss
