@@ -730,6 +730,7 @@ en:
     hiauntie: HiAuntie
     mastodon: "Mastodon original"
     column_width: "Mastodon + column width mod"
+    color_map_test: "Color map test"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
