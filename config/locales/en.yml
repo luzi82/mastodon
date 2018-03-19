@@ -728,7 +728,6 @@ en:
   themes:
     default: Default
     hiauntie: HiAuntie
-    hiauntie_dev: HiAuntie Dev
     mastodon: Mastodon original
     column_width: "Mastodon + column width mod"
   time:
