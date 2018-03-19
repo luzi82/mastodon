@@ -1,1 +1,2 @@
-default: styles/application.scss
+default: styles/hiauntie.scss
+mastodon: styles/application.scss
