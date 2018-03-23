@@ -1,1 +1,2 @@
 default: styles/application.scss
+column_width: styles/column_width.scss

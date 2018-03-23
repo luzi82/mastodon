@@ -727,6 +727,7 @@ en:
     title: "%{instance} Terms of Service and Privacy Policy"
   themes:
     default: Mastodon
+    column_width: "Mastodon + column width mod"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
