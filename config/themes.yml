@@ -1,1 +1,2 @@
-default: styles/application.scss
+default: styles/default.scss
+mastodon: styles/application.scss
