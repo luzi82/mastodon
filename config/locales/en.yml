@@ -728,6 +728,7 @@ en:
   themes:
     default: Default
     mastodon: Mastodon
+    column_width: "Mastodon + column width mod"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

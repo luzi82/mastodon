@@ -1,2 +1,3 @@
 default: styles/default.scss
 mastodon: styles/application.scss
+column_width: styles/column_width.scss
