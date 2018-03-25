@@ -1,0 +1,48 @@
+// $base-shadow-color: $black !default;
+// $base-overlay-background: $black !default;
+// $base-border-color: $white !default;
+// $simple-background-color: $white !default;
+$primary-text-color: #000000; // status color
+// $valid-value-color: $success-green !default;
+// $error-value-color: $error-red !default;
+
+$ui-back-color: #99bbdd;
+$ui-base-color: #aaccee;
+//$ui-base-lighter-color: #ff0000;
+
+$ui-base-0-color: #ccddee;
+
+// clickable mastodon func
+$ui-primary-base-color: #ccddee;
+$ui-primary-base-hover-color: #ddeeff;
+$ui-primary-color: #112233;
+$ui-primary-hover-color: #114477;
+$ui-primary-active-color: #af7f4f; // clickable mastodon func on active
+$ui-primary-active-hover-color: #dfaf7f;
+
+$ui-button-text-color: #ffffff;
+$ui-button-text-hover-color: #ffffff;
+$ui-button-base-color: $ui-primary-color;
+$ui-button-base-hover-color: $ui-primary-hover-color;
+
+$ui-secondary-color: #3377bb;      // not clickable mastodon func
+$ui-secondary-highlight-color: #0077ee;
+$ui-highlight-color: #113355;
+
+$ui-disable-color: #7f7f7f;
+
+$dialog-base-color: #ffffff;
+$content-base-color: #ffffff;
+$input-base-color: #ffffff;
+$input-color: #000000;
+$input-placeholder-color: #555555;
+
+$username-color: #444444;
+$username-hover-color: #000000;
+
+$userdisplayname-color: #222222;
+
+$link-color: #1188ff;
+
+@import 'application';
+@import 'aria_mod_1.scss';
