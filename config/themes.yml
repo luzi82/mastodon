@@ -2,3 +2,4 @@ default: styles/default.scss
 mastodon: styles/application.scss
 column_width: styles/column_width.scss
 aria: styles/aria.scss
+aria_column_width: styles/aria_column_width.scss
