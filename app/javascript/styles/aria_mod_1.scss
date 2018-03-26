@@ -508,7 +508,7 @@ $drawer__inner__mastodon-base-color: $ui-base-0-color;
     background: $ui-base-1-color; // status bg bg
 }
 
-article .status.status-public {
+article .status__wrapper {
     background: $content-base-color; // status bg
 }
 
@@ -667,6 +667,6 @@ a.detailed-status__datetime {
     background: $ui-base-0-color; // spoiler preview
 }
 
-.followers.account {
+.followers .account {
     background: $content-base-color;
 }
