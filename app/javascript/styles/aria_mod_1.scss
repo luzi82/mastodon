@@ -614,6 +614,10 @@ button.icon-button.disabled i.fa-retweet {
 
 // right column status
 
+.account__header > div {
+    background: rgba($ui-base-0-color,0.9);
+}
+
 .detailed-status {
     background: $content-base-color;
 }
