@@ -47,5 +47,9 @@ $userdisplayname-color: #332211;
 
 $link-color: #1188ff;
 
+@function shift-base($c,$p) {
+    @return (lighten($c,$p));
+}
+
 @import 'application';
 @import 'aria_mod_1.scss';
