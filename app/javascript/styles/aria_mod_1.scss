@@ -36,7 +36,7 @@ a {
 
 // status focus
 .focusable:focus {
-    background: $ui-base-0-color;
+    background: $ui-base-1-color;
 }
 
 // delete status dialog
@@ -485,11 +485,11 @@ $drawer__inner__mastodon-base-color: $ui-base-0-color;
 // status
 
 .status__prepend {
-    color: $ui-base-0-color; // boost icon, text
+    color: $ui-secondary-color; // boost icon, text
 }
 
 .status__prepend .status__display-name strong {
-    color: $ui-base-color; // booster name
+    color: shift-base($userdisplayname-color, 38.2%); // booster name
 }
 
 .status__display-name {
