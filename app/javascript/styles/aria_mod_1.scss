@@ -34,6 +34,11 @@ a {
     color: $link-color; 
 }
 
+// status focus
+.focusable:focus {
+    background: $ui-base-0-color;
+}
+
 // delete status dialog
 .boost-modal, .confirmation-modal, .report-modal, .actions-modal, .mute-modal {
     background: $dialog-base-color;
@@ -115,9 +120,9 @@ body.app-body {
 
 .navigation-bar strong {
     color: $username-color; // main page > left column > "@username"
-    &:hover {
-        color: $username-hover-color; // main page > left column > "@username"
-    }
+    //&:hover {
+    //    color: $username-hover-color; // main page > left column > "@username"
+    //}
 }
 
 .navigation-bar a.navigation-bar__profile-edit {
@@ -217,7 +222,7 @@ body.app-body {
 }
 
 .emoji-mart-category-label span {
-    background: #ffffff; // emoji category background
+    background: $dialog-base-color; // emoji category background
 }
 
 .emoji-mart {
@@ -479,12 +484,20 @@ $drawer__inner__mastodon-base-color: $ui-base-0-color;
 
 // status
 
-.status__display-name strong {
-    color: $userdisplayname-color; // toot creater display name
+.status__prepend {
+    color: $ui-base-0-color; // boost icon, text
+}
+
+.status__prepend .status__display-name strong {
+    color: $ui-base-color; // booster name
 }
 
 .status__display-name {
     color: $username-color; // toot creator acc name
+}
+
+.status__display-name strong {
+    color: $userdisplayname-color; // toot creater display name
 }
 
 .status__relative-time {
@@ -492,11 +505,23 @@ $drawer__inner__mastodon-base-color: $ui-base-0-color;
 }
 
 .column > .scrollable {
+    background: $ui-base-1-color; // status bg bg
+}
+
+article .status.status-public {
     background: $content-base-color; // status bg
 }
 
 .status__content p {
     color: $primary-text-color; // status txt
+}
+
+.status__content__spoiler-link {
+    color: $ui-primary-color;
+}
+
+.media-spoiler {
+    background: $ui-base-0-color;
 }
 
 $status_action_bar_color: $ui-primary-color;
@@ -566,7 +591,7 @@ button.icon-button.disabled i.fa-retweet {
     }
 }
 
-// right column
+// right column menu
 
 .column-subheading {
     color: $ui-secondary-color; // main page > right column > sub-session title text
@@ -585,4 +610,59 @@ button.icon-button.disabled i.fa-retweet {
 
 .getting-started a {
     color: $link-color; // main page > right column > bottom description link text
+}
+
+// right column status
+
+.detailed-status {
+    background: $content-base-color;
+}
+
+.detailed-status__display-name {
+    color: $username-color;
+    //&:hover {
+    //    color: $username-hover-color;
+    //}
+}
+
+.detailed-status__display-name strong {
+    color: $userdisplayname-color;
+}
+
+.detailed-status__action-bar {
+    background: $content-base-color;
+}
+
+.icon-button {
+    color: $ui-primary-color;
+}
+
+.icon-button:active, .icon-button:focus, .icon-button:hover {
+    color: $ui-primary-color;
+    &:hover {
+        color: $ui-primary-hover-color;
+    }
+}
+
+.detailed-status__meta,
+.detailed-status__application,
+.detailed-status__datetime
+{
+    color: $ui-secondary-color;
+}
+
+a.detailed-status__datetime {
+    color: $link-color;
+}
+
+.account__section-headline {
+    background: $ui-base-0-color;
+}
+
+.account-gallery__item a {
+    background: $ui-base-0-color; // spoiler preview
+}
+
+.followers.account {
+    background: $content-base-color;
 }
