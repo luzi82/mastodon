@@ -639,11 +639,17 @@ button.icon-button.disabled i.fa-retweet {
 }
 
 .muted .status__content p {
+    opacity: .5;
     color: $primary-text-color;
 }
 
 .muted .status__content a {
+    opacity: .5;
     color: $link-color;
+}
+
+.muted .status__display-name {
+    opacity: .5;
 }
 
 .muted .status__display-name strong {
