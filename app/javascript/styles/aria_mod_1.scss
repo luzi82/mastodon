@@ -173,6 +173,10 @@ body.app-body {
     color: $primary-text-color; // reply original msg
 }
 
+.reply-indicator__content a, .status__content a {
+    color: $ui-primary-color;
+}
+
 // toot text input
 
 .compose-form .autosuggest-textarea__textarea {
@@ -512,6 +516,10 @@ article .status__wrapper {
     background: $content-base-color; // status bg
 }
 
+.status.status-direct {
+    background: $special-base-color;
+}
+
 .status__content p {
     color: $primary-text-color; // status txt
 }
@@ -550,6 +558,10 @@ button.icon-button.disabled i.fa-retweet {
     &:hover {
         color: $ui-primary-active-hover-color;
     }
+}
+
+.status.status-direct .icon-button.disabled {
+    color: $ui-disable-color;
 }
 
 .dropdown-menu__arrow.bottom {
@@ -609,7 +621,7 @@ button.icon-button.disabled i.fa-retweet {
 }
 
 .getting-started a {
-    color: $link-color; // main page > right column > bottom description link text
+    color: $ui-link-color; // main page > right column > bottom description link text
 }
 
 // right column status
@@ -638,6 +650,10 @@ button.icon-button.disabled i.fa-retweet {
     color: $ui-primary-color;
 }
 
+.muted .status__avatar {
+    opacity: 1;
+}
+
 .muted .status__content p {
     opacity: .5;
     color: $primary-text-color;
@@ -652,6 +668,14 @@ button.icon-button.disabled i.fa-retweet {
     opacity: .5;
 }
 
+.attachment-list__list a {
+    color: $link-color;
+}
+
+.muted .attachment-list__list a {
+    opacity: .5;
+}
+
 .muted .status__display-name strong {
     color: $userdisplayname-color;
 }
@@ -662,6 +686,14 @@ button.icon-button.disabled i.fa-retweet {
 
 .account .account__display-name {
     color: $username-color;
+}
+
+.account__disclaimer {
+    color: $ui-secondary-color;
+}
+
+.account__disclaimer a {
+    color: $ui-primary-color;
 }
 
 .detailed-status__display-name {
