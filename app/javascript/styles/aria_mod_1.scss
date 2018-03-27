@@ -622,6 +622,42 @@ button.icon-button.disabled i.fa-retweet {
     background: $content-base-color;
 }
 
+.notification {
+    background: $content-base-color;
+}
+
+.notification__message {
+    color: $ui-secondary-color;
+}
+
+.notification__favourite-icon-wrapper .star-icon, .star-icon.active {
+    color: $ui-primary-color;
+}
+
+.notification__message .fa {
+    color: $ui-primary-color;
+}
+
+.muted .status__content p {
+    color: $primary-text-color;
+}
+
+.muted .status__content a {
+    color: $link-color;
+}
+
+.muted .status__display-name strong {
+    color: $userdisplayname-color;
+}
+
+.account__display-name strong, .status__display-name strong {
+    color: $userdisplayname-color;
+}
+
+.account .account__display-name {
+    color: $username-color;
+}
+
 .detailed-status__display-name {
     color: $username-color;
     //&:hover {
