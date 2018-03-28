@@ -1,11 +1,11 @@
 // common component
 
 .button {
-    background: $ui-button-base-color;
-    color: $ui-button-text-color;
+    background: $aria-ui-0-front-color;
+    color: $aria-ui-0-base-color;
     &:hover{
-        background: $ui-button-base-hover-color;
-        color: $ui-button-text-hover-color;
+        background: $aria-ui-0h-front-color;
+        color: $aria-ui-0h-base-color;
     }
 }
 
@@ -24,360 +24,359 @@
 //}
 
 input {
-    color: $input-color;
+    color: $aria-primary-front-color;
     &::placeholder {
-        color: $input-placeholder-color; // main page > left column > search > input place holder
+        color: $aria-placeholder-front-color; // main page > left column > search > input place holder
     }
 }
 
 a {
-    color: $link-color; 
+    color: $aria-ui-link-color; 
 }
 
 // status focus
 .focusable:focus {
-    background: $ui-base-1-color;
+    background: $aria-ui--1-base-color;
 }
 
 // delete status dialog
 .boost-modal, .confirmation-modal, .report-modal, .actions-modal, .mute-modal {
-    background: $dialog-base-color;
-    color: $primary-text-color;
+    background: $aria-primary-base-color;
+    color: $aria-ui-0-front-color;
 }
 .boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar {
-    background: $ui-primary-base-color;
+    background: $aria-ui-0-base-color;
 }
 
 // cancel btn
 .confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button
 {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
     &:hover {
-        background: $ui-primary-hover-color;
-        color: $ui-button-text-hover-color;
+        background: $aria-ui-0h-front-color;
+        color: $aria-ui-0h-base-color;
     }
 }
 
 // big ui
 
 body.app-body {
-    background: $ui-base-color; // base background, appear b4 ui appear
+    background: $aria-ui-base-color; // base background, appear b4 ui appear
 }
 
 .ui {
-    background: $ui-back-color; // main background
+    background: $aria-ui-main-base-color; // main background
 }
 
 // 
 
 .drawer__header {
-    background: $ui-primary-base-color; //  main page > left column > top background > non hover
+    background: $aria-ui-0-base-color; //  main page > left column > top background > non hover
 }
 
 .drawer__header a:hover {
-    background: $ui-primary-base-hover-color; //  main page > left column > top background > hover
+    background: $aria-ui-0h-base-color; //  main page > left column > top background > hover
 }
 
 .drawer__tab {
-    color: $ui-primary-color; // main page > left column > top icon
+    color: $aria-ui-0-front-color; // main page > left column > top icon
     &:hover {
-        color: $ui-primary-hover-color; // main page > left column > top icon > hover
+        color: $aria-ui-0h-front-color; // main page > left column > top icon > hover
     }
 }
 
 // search box
 
 .search__input {
-    color: $input-color; // main page > left column > search > input
-    background: $ui-base-0-color;
+    color: $aria-primary-front-color; // main page > left column > search > input
+    background: $aria-ui-0-base-color;
     &:focus {
-        background: $input-base-color; // main page > left column > search > input > background
+        background: $aria-primary-base-color; // main page > left column > search > input > background
     }
 }
 
 .search__icon .fa {
-    color: $ui-primary-color; // main page > left column > search > right icon
+    color: $aria-ui-0-front-color; // main page > left column > search > right icon
 }
 
 .search-popout {
-    background: $dialog-base-color; // main page > left column > search > tips popup > background
-    color: $ui-secondary-color; // main page > left column > search > tips popup > text
+    background: $aria-primary-base-color; // main page > left column > search > tips popup > background
+    color: $aria-ui-1-front-color; // main page > left column > search > tips popup > text
     h4 {
-        color: $ui-secondary-color; // main page > left column > search > tips popup > header
+        color: $aria-ui-1-front-color; // main page > left column > search > tips popup > header
     }
     em {
-        color: $ui-secondary-highlight-color; // main page > left column > search > tips popup > text sample syntax
+        color: $aria-ui-1n-front-color; // main page > left column > search > tips popup > text sample syntax
     }
 }
 
 // left stuff
 
 .drawer__inner {
-    background: $ui-base-0-color; // main 
+    background: $aria-ui-0-base-color; // main page > left column > input session > bg
 }
 
 // user icon and name
 
 .navigation-bar strong {
-    color: $username-color; // main page > left column > "@username"
+    color: $aria-useraccountname-color; // main page > left column > "@username"
     //&:hover {
     //    color: $username-hover-color; // main page > left column > "@username"
     //}
 }
 
 .navigation-bar a.navigation-bar__profile-edit {
-    color: $ui-primary-color; // main page > left column > "Edit profile"
+    color: $aria-ui-0-front-color; // main page > left column > "Edit profile"
     &:hover {
-        color: $ui-primary-hover-color;
+        color: $aria-ui-0h-front-color;
     }
 }
 
 // click privacy > follower only to activate
 
 .compose-form .compose-form__warning {
-    background: $dialog-base-color; // main page > left column > toot input > follower only warning > background
-    color: $ui-secondary-color; // main page > left column > toot input > follower only warning > text
+    background: $aria-primary-base-color; // main page > left column > toot input > follower only warning > background
+    color: $aria-ui-1-front-color; // main page > left column > toot input > follower only warning > text
     a {
-        color: $link-color; // main page > left column > toot input > follower only warning > link
+        color: $aria-content-link-color; // main page > left column > toot input > follower only warning > link
     }
 }
 
 // CW input
 
 .compose-form .spoiler-input__input {
-    color: $input-color; // main page > left column > toot input > CW input > input text
+    color: $aria-primary-front-color; // main page > left column > toot input > CW input > input text
 }
 
 // reply box
 
 .reply-indicator {
-    background: $ui-base-color; // reply original msg background
+    background: $aria-ui-1-base-color; // reply original msg background
 }
 
 .reply-indicator .display-name strong.display-name__html {
-    color: $userdisplayname-color; // reply original msg user display name
+    color: $aria-userdisplayname-color; // reply original msg user display name
 }
 
 .reply-indicator .display-name .display-name__account {
-    color: $username-color; // reply original msg user acc name
+    color: $aria-useraccountname-color; // reply original msg user acc name
 }
 
 .reply-indicator .reply-indicator__cancel .icon-button {
-    color: $ui-primary-color; // reply cancel cross btn
+    color: $aria-ui-0-front-color; // reply cancel cross btn
     &:hover {
-        color: $ui-primary-hover-color; // reply cancel cross btn hover
+        color: $aria-ui-0h-front-color; // reply cancel cross btn hover
     }
 }
 
 .reply-indicator p {
-    color: $primary-text-color; // reply original msg
+    color: $aria-primary-front-color; // reply original msg
 }
 
 .reply-indicator__content a, .status__content a {
-    color: $ui-primary-color;
+    color: $aria-content-link-color;
 }
 
 // toot text input
 
 .compose-form .autosuggest-textarea__textarea {
-    background: $input-base-color; // main page > left column > toot input > main input > background
-    color: $input-color; // main page > left column > toot input > main input > input text
+    background: $aria-primary-base-color; // main page > left column > toot input > main input > background
+    color: $aria-primary-front-color; // main page > left column > toot input > main input > input text
     &::placeholder {
-        color: $input-placeholder-color;
+        color: $aria-placeholder-front-color;
     }
 }
 
 // emoji
 
 .emoji-mart-bar:first-child {
-    background: $ui-base-0-color; // emoji cat-bar background
+    background: $aria-ui-0-base-color; // emoji cat-bar background
 } 
 
 .emoji-mart-anchors svg {
-    color: $ui-primary-color; // emoji cat not selected
+    color: $aria-ui-0-front-color; // emoji cat not selected
     &:hover {
-        color: $ui-primary-hover-color;
+        color: $aria-ui-0h-front-color;
     }
 }
 
 .emoji-mart-anchor-selected svg {
-    color: $ui-primary-active-color; // emoji cat selected
+    color: $aria-ui-0a-front-color; // emoji cat selected
     &:hover {
-        color: $ui-primary-active-hover-color;
+        color: $aria-ui-0ah-front-color;
     }
 }
 
 .emoji-mart-anchor-bar {
-    background: $ui-primary-active-color; // emoji cat selected bottom bar
+    background: $aria-ui-0a-front-color; // emoji cat selected bottom bar
 }
 
 .emoji-mart-bar {
-    border-color: $ui-base-color; // emoji cat-bar/icon border
+    border-color: $aria-ui-1-base-color; // emoji cat-bar/icon border
 }
 
 .emoji-mart-search {
-    background: $dialog-base-color; // emoji search bar background
+    background: $aria-primary-base-color; // emoji search bar background
 }
 
 .emoji-mart-search input {
-    background: $input-base-color; // emoji search box background
-    color: $input-color; // emoji search box text
-    border-color: $ui-base-color; // emoji search box border
+    background: $aria-primary-base-color; // emoji search box background
+    color: $aria-primary-front-color; // emoji search box text
+    border-color: $aria-ui-1-base-color; // emoji search box border
 }
 
 .emoji-mart-category-label span {
-    background: $dialog-base-color; // emoji category background
+    background: $aria-primary-base-color; // emoji category background
 }
 
 .emoji-mart {
-    color: $ui-secondary-color; // emoji category title
+    color: $aria-ui-1-front-color; // emoji category title
 }
 
 .emoji-mart-scroll {
-    background: $dialog-base-color; // emoji field background
+    background: $aria-primary-base-color; // emoji field background
 }
 
 .emoji-mart-category .emoji-mart-emoji:hover::before {
-    background-color: $ui-primary-hover-color // emoji select bg
+    background-color: $aria-ui-0h-front-color // emoji select bg
 }
 
 .emoji-picker-dropdown__menu {
-    background: $dialog-base-color; // emoji bottom bar
+    background: $aria-primary-base-color; // emoji bottom bar
 }
 
 // toot file upload
 
 .compose-form .compose-form__modifiers {
-    background: $input-base-color; // main page > left column > toot input > mid 0 bar
+    background: $aria-primary-base-color; // main page > left column > toot input > mid 0 bar
 }
 
 .upload-progress {
-    color: $ui-secondary-color; // main page > left column > toot input > mid 0 bar > img upload > icon+text
+    color: $aria-ui-1-front-color; // main page > left column > toot input > mid 0 bar > img upload > icon+text
     &__backdrop {
-        background: $ui-base-color; // main page > left column > toot input > mid 0 bar > img upload > bar > background
+        background: $aria-ui-1-base-color; // main page > left column > toot input > mid 0 bar > img upload > bar > background
     }
     &__tracker {
-        background: $ui-secondary-color; // main page > left column > toot input > mid 0 bar > img upload > bar > progress
+        background: $aria-ui-1-front-color; // main page > left column > toot input > mid 0 bar > img upload > bar > progress
     }
 }
 
 .compose-form .compose-form__modifiers .compose-form__upload__actions {
     // main page > left column > toot input > mid 0 bar > img preview > action background
-    background: linear-gradient(180deg, rgba($input-base-color, 0.8) 0, rgba($input-base-color, 0.35) 80%, transparent);
+    background: linear-gradient(180deg, rgba($aria-primary-base-color, 0.8) 0, rgba($aria-primary-base-color, 0.35) 80%, transparent);
 }
 
 .compose-form .compose-form__modifiers .compose-form__upload__actions .icon-button {
-    color: $ui-primary-color; // main page > left column > toot input > mid 0 bar > img preview > action icon+text
+    color: $aria-ui-0-front-color; // main page > left column > toot input > mid 0 bar > img preview > action icon+text
     &:hover, &:focus{
-        color: $ui-primary-hover-color; // main page > left column > toot input > mid 0 bar > img preview > action icon+text > focus
+        color: $aria-ui-0h-front-color; // main page > left column > toot input > mid 0 bar > img preview > action icon+text > focus
     }
 }
 
 .compose-form .compose-form__modifiers .compose-form__upload-description {
     // main page > left column > toot input > mid 0 bar > img preview > description background
-    background: linear-gradient(0deg, rgba($input-base-color, 0.8) 0, rgba($input-base-color, 0.35) 80%, transparent);
+    background: linear-gradient(0deg, rgba($aria-primary-base-color, 0.8) 0, rgba($aria-primary-base-color, 0.35) 80%, transparent);
 }
 
 .compose-form .compose-form__modifiers .compose-form__upload-description input {
-    color: $input-color; // main page > left column > toot input > mid 0 bar > img preview > description input
+    color: $aria-primary-front-color; // main page > left column > toot input > mid 0 bar > img preview > description input
     &:focus{
-        color: $input-color; // main page > left column > toot input > mid 0 bar > img preview > description input > focus
+        color: $aria-primary-front-color; // main page > left column > toot input > mid 0 bar > img preview > description input > focus
     }
     &::placeholder{
         opacity: 1;
-        color: $input-placeholder-color; // main page > left column > toot input > mid 0 bar > img preview > description input > placeholder
+        color: $aria-placeholder-front-color; // main page > left column > toot input > mid 0 bar > img preview > description input > placeholder
     }
 }
 
 // toot function bar
 
 .compose-form .compose-form__buttons-wrapper {
-    background: $input-base-color; // main page > left column > toot input > mid 1 bar > background
+    background: $aria-primary-base-color; // main page > left column > toot input > mid 1 bar > background
 }
 
 .compose-form__buttons .icon-button.inverted {
-    color: $ui-primary-color; // main page > left column > toot input > mid 1 bar > left btn
+    color: $aria-ui-0-front-color; // main page > left column > toot input > mid 1 bar > left btn
     &:hover{
-        color: $ui-primary-hover-color; // main page > left column > toot input > mid 1 bar > left btn > hover
+        color: $aria-ui-0h-front-color; // main page > left column > toot input > mid 1 bar > left btn > hover
     }
 }
 
 .privacy-dropdown.active .privacy-dropdown__value,
 .privacy-dropdown.active .privacy-dropdown__value.active {
-    background: $input-base-color; // main page > left column > toot input > mid 1 bar > privacy btn > on menu show > background
+    background: $aria-primary-base-color; // main page > left column > toot input > mid 1 bar > privacy btn > on menu show > background
 }
 
 .privacy-dropdown.active .privacy-dropdown__value .icon-button,
 .privacy-dropdown.active .privacy-dropdown__value.active .icon-button {
-    color: $ui-primary-active-color; // main page > left column > toot input > mid 1 bar > privacy btn > on menu show > icon
+    color: $aria-ui-0a-front-color; // main page > left column > toot input > mid 1 bar > privacy btn > on menu show > icon
 }
 
 .privacy-dropdown__option {
-    background: $input-base-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > background
-    color: $ui-primary-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > icon
+    background: $aria-primary-base-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > background
+    color: $aria-ui-0-front-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > icon
     .privacy-dropdown__option__content strong {
-        color: $ui-primary-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > title
+        color: $aria-ui-0-front-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > title
     }
     .privacy-dropdown__option__content {
-        color: $ui-primary-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > text
+        color: $aria-ui-0-front-color; // main page > left column > toot input > privacy menu > item > non-active non-hover > text
     }
 }
 
 .privacy-dropdown__option:hover {
-    background: $input-base-color; // main page > left column > toot input > privacy menu > item > non-active hover > background
-    color: $ui-primary-hover-color; // main page > left column > toot input > privacy menu > item > non-active hover > icon
+    background: $aria-primary-base-color; // main page > left column > toot input > privacy menu > item > non-active hover > background
+    color: $aria-ui-0h-front-color; // main page > left column > toot input > privacy menu > item > non-active hover > icon
     .privacy-dropdown__option__content strong {
-        color: $ui-primary-hover-color; // main page > left column > toot input > privacy menu > item > non-active hover > title
+        color: $aria-ui-0h-front-color; // main page > left column > toot input > privacy menu > item > non-active hover > title
     }
     .privacy-dropdown__option__content {
-        color: $ui-primary-hover-color; // main page > left column > toot input > privacy menu > item > non-active hover > text
+        color: $aria-ui-0h-front-color; // main page > left column > toot input > privacy menu > item > non-active hover > text
     }
 }
 
 .privacy-dropdown__option.active {
-    background: $input-base-color; // main page > left column > toot input > privacy menu > item > active non-hover > background
-    color: $ui-primary-active-color; // main page > left column > toot input > privacy menu > item > active non-hover > icon
+    background: $aria-primary-base-color; // main page > left column > toot input > privacy menu > item > active non-hover > background
+    color: $aria-ui-0a-front-color; // main page > left column > toot input > privacy menu > item > active non-hover > icon
     .privacy-dropdown__option__content strong {
-        color: $ui-primary-active-color; // main page > left column > toot input > privacy menu > item > active non-hover > title
+        color: $aria-ui-0a-front-color; // main page > left column > toot input > privacy menu > item > active non-hover > title
     }
     .privacy-dropdown__option__content {
-        color: $ui-primary-active-color; // main page > left column > toot input > privacy menu > item > active non-hover > text
+        color: $aria-ui-0a-front-color; // main page > left column > toot input > privacy menu > item > active non-hover > text
     }
 }
 
 .privacy-dropdown__option.active:hover {
-    background: $input-base-color; // main page > left column > toot input > privacy menu > item > active hover > background
-    color: $ui-primary-active-hover-color; // main page > left column > toot input > privacy menu > item > active hover > icon
+    background: $aria-primary-base-color; // main page > left column > toot input > privacy menu > item > active hover > background
+    color: $aria-ui-0ah-front-color; // main page > left column > toot input > privacy menu > item > active hover > icon
     .privacy-dropdown__option__content strong {
-        color: $ui-primary-active-hover-color; // main page > left column > toot input > privacy menu > item > active hover > title
+        color: $aria-ui-0ah-front-color; // main page > left column > toot input > privacy menu > item > active hover > title
     }
     .privacy-dropdown__option__content {
-        color: $ui-primary-active-hover-color; // main page > left column > toot input > privacy menu > item > active hover > text
+        color: $aria-ui-0ah-front-color; // main page > left column > toot input > privacy menu > item > active hover > text
     }
 }
 
 .compose-form__sensitive-button+.text-icon-button {
-    color: $ui-primary-color; // main page > left column > toot input > CW > non active non hover
+    color: $aria-ui-0-front-color; // main page > left column > toot input > CW > non active non hover
     &:hover, &:focus{
-        color: $ui-primary-hover-color; // main page > left column > toot input > CW > non active hover
+        color: $aria-ui-0h-front-color; // main page > left column > toot input > CW > non active hover
     }
 }
 
 .compose-form__sensitive-button+.text-icon-button.active {
-    color: $ui-primary-active-color; // main page > left column > toot input > CW > active non hover
+    color: $aria-ui-0a-front-color; // main page > left column > toot input > CW > active non hover
     &:hover, &:focus{
-        color: $ui-primary-active-hover-color; // main page > left column > toot input > CW > active hover
+        color: $aria-ui-0ah-front-color; // main page > left column > toot input > CW > active hover
     }
 }
 
 .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter {
-    color: $ui-secondary-color; // main page > left column > toot input > char quota
+    color: $aria-ui-1-front-color; // main page > left column > toot input > char quota
 }
 
 // left column bottom mastodon place
 
-$drawer__inner__mastodon-base-color: $ui-base-0-color;
-// $drawer__inner__mastodon-bottom-color: $ui-back-color;
+$drawer__inner__mastodon-base-color: $aria-ui-0-base-color;
 .drawer__inner__mastodon {
     //background: $drawer__inner__mastodon-base-color url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.80078 31.757813" width="234.80078" height="31.757812"><path d="M19.599609 0c-1.05 0-2.10039.375-2.90039 1.125L0 16.925781v14.832031h234.80078V17.025391l-16.5-15.900391c-1.6-1.5-4.20078-1.5-5.80078 0l-13.80078 13.099609c-1.6 1.5-4.19883 1.5-5.79883 0L179.09961 1.125c-1.6-1.5-4.19883-1.5-5.79883 0L159.5 14.224609c-1.6 1.5-4.20078 1.5-5.80078 0L139.90039 1.125c-1.6-1.5-4.20078-1.5-5.80078 0l-13.79883 13.099609c-1.6 1.5-4.20078 1.5-5.80078 0L100.69922 1.125c-1.600001-1.5-4.198829-1.5-5.798829 0l-13.59961 13.099609c-1.6 1.5-4.200781 1.5-5.800781 0L61.699219 1.125c-1.6-1.5-4.198828-1.5-5.798828 0L42.099609 14.224609c-1.6 1.5-4.198828 1.5-5.798828 0L22.5 1.125C21.7.375 20.649609 0 19.599609 0z" fill="#{hex-color($drawer__inner__mastodon-bottom-color)}"/></svg>') no-repeat bottom / 100% auto;
     background: $drawer__inner__mastodon-base-color;
@@ -390,153 +389,161 @@ $drawer__inner__mastodon-base-color: $ui-base-0-color;
 
 // mid column
 
-//.column-header {
-//    background: $ui-secondary-color; // main page > mid+right column > top > background
-//}
+.column-header {
+    background: $aria-ui-0-base-color; // main page > mid+right column > top > background
+}
 
 .column-header > button {
-    color: $ui-secondary-color; // main page > mid+right column > top icon+text
+    color: $aria-ui-1-front-color; // main page > mid+right column > top icon+text
 }
 
 .column-header__button {
-    //background: #ffffff; // main page > mid+right column > top right pref icon > bg color
-    color: $ui-primary-color; // main page > mid+right column > top right pref icon
+    background: $aria-ui-0-base-color; // main page > mid+right column > top right pref icon > bg color
+    color: $aria-ui-0-front-color; // main page > mid+right column > top right pref icon
     &:hover {
-        //background: #ffffff; // main page > mid+right column > top right pref icon > hover > bg color
-        color: $ui-primary-hover-color; // main page > mid+right column > top right pref icon > hover
+        background: $aria-ui-0h-base-color; // main page > mid+right column > top right pref icon > hover > bg color
+        color: $aria-ui-0h-front-color; // main page > mid+right column > top right pref icon > hover
     }
 }
 .column-header__button.active {
-    //background: #ffffff; // main page > mid+right column > top right pref icon > clicked > bg color
-    color: $ui-primary-active-color; // main page > mid+right column > top right pref icon > clicked
+    background: $aria-ui-0-base-color; // main page > mid+right column > top right pref icon > clicked > bg color
+    color: $aria-ui-0a-front-color; // main page > mid+right column > top right pref icon > clicked
     &:hover {
-        //background: #ffffff; // main page > mid+right column > top right pref icon > hover clicked > bg color
-        color: $ui-primary-active-hover-color; // main page > mid+right column > top right pref icon > hover clicked
+        background: $aria-ui-0h-base-color; // main page > mid+right column > top right pref icon > hover clicked > bg color
+        color: $aria-ui-0ah-front-color; // main page > mid+right column > top right pref icon > hover clicked
     }
 }
 
 .column-header__collapsible-inner {
-    background: $dialog-base-color; // column pref > bg
+    background: $aria-primary-base-color; // column pref > bg
 }
 
 .column-settings__section {
-    color: $ui-secondary-color; // column pref > section title
+    color: $aria-ui-1-front-color; // column pref > section title
 }
 
 .react-toggle-track {
-    background-color: $ui-primary-color; // on off switch backdrop color, false, no hover
+    background-color: $aria-ui-0-front-color; // on off switch backdrop color, false, no hover
 }
 .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
-    background-color: $ui-primary-hover-color; // on off switch backdrop color, false, hover
+    background-color: $aria-ui-0h-front-color; // on off switch backdrop color, false, hover
 }
 .react-toggle--checked .react-toggle-track {
-    background-color: $ui-primary-active-color; // on off switch backdrop color, true, no hover
+    background-color: $aria-ui-0a-front-color; // on off switch backdrop color, true, no hover
 }
 .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
-    background-color: $ui-primary-active-hover-color; // on off switch backdrop color, true, hover
+    background-color: $aria-ui-0ah-front-color; // on off switch backdrop color, true, hover
 }
 
 .react-toggle-track-check path {
-    fill: $dialog-base-color; // on off switch true tick icon color
+    fill: $aria-primary-base-color; // on off switch true tick icon color
 }
 .react-toggle-track-x path {
-    fill: $dialog-base-color; // on off switch false cross icon color
+    fill: $aria-primary-base-color; // on off switch false cross icon color
 }
 
 .react-toggle-thumb {
-    border-color: $ui-primary-color; // on off switch circle border color, false (thin)
-    background-color: $dialog-base-color; // on off switch circle fill color, false
+    border-color: $aria-ui-0-front-color; // on off switch circle border color, false (thin)
+    background-color: $aria-primary-base-color; // on off switch circle fill color, false
 }
 
 .react-toggle--checked .react-toggle-thumb {
-    border-color: $ui-primary-active-color; // on off switch circle border color, true (thin)
-    background-color: $dialog-base-color; // on off switch circle fill color, true
+    border-color: $aria-ui-0a-front-color; // on off switch circle border color, true (thin)
+    background-color: $aria-primary-base-color; // on off switch circle fill color, true
 }
 
 .setting-toggle__label {
-    color: $ui-primary-color; // setting label
+    color: $aria-ui-0-front-color; // setting label
     &:hover {
-        color: $ui-primary-hover-color; // setting label
+        color: $aria-ui-0h-front-color; // setting label
     }
 }
 
 .setting-text {
-    color: $input-color; // setting input text
-    border-bottom-color: $input-color; // underline
+    color: $aria-primary-front-color; // setting input text
+    border-bottom-color: $aria-primary-front-color; // underline
     //&::placeholder {
     //    color: #000000;
     //}
     &:focus {
-        color: $input-color; // setting input text > focus
-        border-bottom-color: $input-color; // underline > focus
+        color: $aria-primary-front-color; // setting input text > focus
+        border-bottom-color: $aria-primary-front-color; // underline > focus
     }
 }
 
 .column-header__collapsible .text-btn.column-header__setting-btn {
-    color: $ui-primary-color; // unpin btn txt
+    color: $aria-ui-0-front-color; // unpin btn txt
     &:focus, &:hover {
-        color: $ui-primary-hover-color; // unpin btn txt > focus
+        color: $aria-ui-0h-front-color; // unpin btn txt > focus
     }
 }
 
 .column-header__collapsible .column-header__setting-arrows {
-    color: $ui-primary-color; // arrow btn
+    color: $aria-ui-0-front-color; // arrow btn
     &:focus, &:hover {
-        color: $ui-primary-hover-color; // arrow btn > focus
+        color: $aria-ui-0h-front-color; // arrow btn > focus
     }
 }
 
 // status
 
 .status__prepend {
-    color: $ui-secondary-color; // boost icon, text
+    color: $aria-ui-1-front-color; // boost icon, text
 }
 
 .status__prepend .status__display-name strong {
-    color: shift-base($userdisplayname-color, 38.2%); // booster name
+    color: shift-base($aria-userdisplayname-color, 38.2%); // booster name
 }
 
 .status__display-name {
-    color: $username-color; // toot creator acc name
+    color: $aria-useraccountname-color; // toot creator acc name
 }
 
 .status__display-name strong {
-    color: $userdisplayname-color; // toot creater display name
+    color: $aria-userdisplayname-color; // toot creater display name
 }
 
 .status__relative-time {
-    color: $link-color; // toot time
+    color: $aria-ui-link-color; // toot time
 }
 
 .column > .scrollable {
-    background: $ui-base-1-color; // status bg bg
+    background: $aria-ui-0-base-color; // status bg bg
 }
 
 article .status__wrapper {
-    background: $content-base-color; // status bg
+    background: $aria-primary-base-color; // status bg
 }
 
 .status.status-direct {
-    background: $special-base-color;
+    background: $aria-ui--1n-base-color; // direct msg bg
 }
 
 .status__content p {
-    color: $primary-text-color; // status txt
+    color: $aria-primary-front-color; // status txt
 }
 
 .status__content__spoiler-link {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
+}
+
+.status-card__title {
+    color: $aria-ui-1-front-color;
+}
+
+.status-card {
+    color: $aria-ui-0-front-color;
 }
 
 .media-spoiler {
-    background: $ui-base-0-color;
+    background: $aria-ui-0-base-color;
 }
 
-$status_action_bar_color: $ui-primary-color;
-$status_action_bar_color_hover: $ui-primary-hover-color;
-$status_action_bar_color_boosted: $ui-primary-active-color;
-$status_action_bar_color_boosted_hover: $ui-primary-active-hover-color;
-$status_action_bar_color_disabled: $ui-disable-color;
+$status_action_bar_color: $aria-ui-0-front-color;
+$status_action_bar_color_hover: $aria-ui-0h-front-color;
+$status_action_bar_color_boosted: $aria-ui-0a-front-color;
+$status_action_bar_color_boosted_hover: $aria-ui-0ah-front-color;
+$status_action_bar_color_disabled: $aria-ui-disable-color;
 .status__action-bar .icon-button {
     color: $status_action_bar_color; // status action btn
     &:hover {
@@ -554,100 +561,111 @@ button.icon-button.disabled i.fa-retweet {
 }
 
 .icon-button.star-icon.active {
-    color: $ui-primary-active-color;
+    color: $aria-ui-0a-front-color;
     &:hover {
-        color: $ui-primary-active-hover-color;
+        color: $aria-ui-0ah-front-color;
     }
 }
 
 .status.status-direct .icon-button.disabled {
-    color: $ui-disable-color;
+    color: $aria-ui-disable-color;
 }
 
 .dropdown-menu__arrow.bottom {
-    border-bottom-color: $ui-primary-base-color; // status bar menu top arrow
+    border-bottom-color: $aria-ui-0-base-color; // status bar menu top arrow
 }
 .dropdown-menu {
-    background: $ui-primary-base-color; // status bar menu bg
+    background: $aria-ui-0-base-color; // status bar menu bg
 }
 
 .dropdown-menu__item a {
-    background: $ui-primary-base-color; // status bar menu item bg
-    color: $ui-primary-color; // status bar menu item txt
+    background: $aria-ui-0-base-color; // status bar menu item bg
+    color: $aria-ui-0-front-color; // status bar menu item txt
     &:hover {
-        background: $ui-primary-base-hover-color; // status bar menu item bg
-        color: $ui-primary-hover-color; // status bar menu item txt
+        background: $aria-ui-0h-base-color; // status bar menu item bg
+        color: $aria-ui-0h-front-color; // status bar menu item txt
     }
 }
 .dropdown-menu__separator {
-    border-bottom-color: $ui-secondary-color; // status bar menu separator
+    border-bottom-color: $aria-ui-1-front-color; // status bar menu separator
 }
 
 .load-more {
-    color: $ui-primary-color; // "load more" status text
+    color: $aria-ui-0-front-color; // "load more" status text
 }
 .load-more:hover {
-    color: $ui-primary-hover-color;
-    background: $ui-primary-base-hover-color;
+    color: $aria-ui-0h-front-color;
+    background: $aria-ui-0h-base-color;
 }
 
 .empty-column-indicator, .error-column {
-    background-color: $content-base-color;
-    color: $ui-secondary-color;
+    background-color: $aria-primary-base-color;
+    color: $aria-ui-1-front-color;
 }
 
 .empty-column-indicator a {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
     &:hover {
-        color: $ui-primary-hover-color;
+        color: $aria-ui-0h-front-color;
     }
 }
 
 // right column menu
 
+.column-header > .column-header__back-button {
+    color: $aria-ui-0-front-color; // main page > right column > back btn
+}
+
 .column-subheading {
-    color: $ui-secondary-color; // main page > right column > sub-session title text
+    color: $aria-ui-1-front-color; // main page > right column > sub-session title text
+    background: $aria-ui-1-base-color;
 }
 
 .column-link {
-    color: $ui-primary-color; // main page > right column > item icon+text
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-0-front-color; // main page > right column > item icon+text
     &:hover {
-        color: $ui-primary-hover-color; // main page > right column > item icon+text > hover
+        background: $aria-ui-0h-base-color;
+        color: $aria-ui-0h-front-color; // main page > right column > item icon+text > hover
     }
 }
 
+.getting-started {
+    background: $aria-ui-1-base-color;
+}
+
 .getting-started p {
-    color: $ui-secondary-color; // main page > right column > bottom description normal text
+    color: $aria-ui-1-front-color; // main page > right column > bottom description normal text
 }
 
 .getting-started a {
-    color: $ui-link-color; // main page > right column > bottom description link text
+    color: $aria-ui-link-color; // main page > right column > bottom description link text
 }
 
 // right column status
 
 .account__header > div {
-    background: rgba($ui-base-0-color,0.9);
+    background: rgba($aria-ui-0-base-color,0.9);
 }
 
 .detailed-status {
-    background: $content-base-color;
+    background: $aria-primary-base-color;
 }
 
 .notification {
-    background: $content-base-color;
+    background: $aria-primary-base-color;
 }
 
 .notification__message {
-    color: $ui-secondary-color;
+    color: $aria-ui-1-front-color;
 }
 
 .notification__favourite-icon-wrapper .star-icon, .star-icon.active {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
 }
 
 .notification__message .fa {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
 }
 
 .muted .status__avatar {
@@ -656,12 +674,12 @@ button.icon-button.disabled i.fa-retweet {
 
 .muted .status__content p {
     opacity: .5;
-    color: $primary-text-color;
+    color: $aria-primary-front-color;
 }
 
 .muted .status__content a {
     opacity: .5;
-    color: $link-color;
+    color: $aria-content-link-color;
 }
 
 .muted .status__display-name {
@@ -669,7 +687,7 @@ button.icon-button.disabled i.fa-retweet {
 }
 
 .attachment-list__list a {
-    color: $link-color;
+    color: $aria-content-link-color;
 }
 
 .muted .attachment-list__list a {
@@ -677,75 +695,76 @@ button.icon-button.disabled i.fa-retweet {
 }
 
 .muted .status__display-name strong {
-    color: $userdisplayname-color;
+    color: $aria-userdisplayname-color;
 }
 
 .account__display-name strong, .status__display-name strong {
-    color: $userdisplayname-color;
+    color: $aria-userdisplayname-color;
 }
 
 .account .account__display-name {
-    color: $username-color;
+    color: $aria-useraccountname-color;
 }
 
 .account__disclaimer {
-    color: $ui-secondary-color;
+    color: $aria-ui-1-front-color;
 }
 
 .account__disclaimer a {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
 }
 
 .detailed-status__display-name {
-    color: $username-color;
+    color: $aria-useraccountname-color;
     //&:hover {
     //    color: $username-hover-color;
     //}
 }
 
 .detailed-status__display-name strong {
-    color: $userdisplayname-color;
+    color: $aria-userdisplayname-color;
 }
 
 .detailed-status__action-bar {
-    background: $content-base-color;
+    background: $aria-primary-base-color;
 }
 
 .icon-button {
-    color: $ui-primary-color;
+    color: $aria-ui-0-front-color;
 }
 
 .icon-button:active, .icon-button:focus, .icon-button:hover {
-    color: $ui-primary-hover-color;
+    color: $aria-ui-0h-front-color;
 }
 
 .icon-button.active i {
-    color: $ui-primary-active-color;
+    color: $aria-ui-0a-front-color;
 }
 
 .icon-button.active:focus i, .icon-button.active:hover i {
-    color: $ui-primary-active-hover-color;
+    color: $aria-ui-0ah-front-color;
 }
 
 .detailed-status__meta,
 .detailed-status__application,
 .detailed-status__datetime
 {
-    color: $ui-secondary-color;
+    color: $aria-ui-1-front-color;
+    color: $aria-ui-1-front-color;
 }
 
 a.detailed-status__datetime {
-    color: $link-color;
+    color: $aria-ui-link-color;
 }
 
 .account__section-headline {
-    background: $ui-base-0-color;
+    background: $aria-ui-0-base-color;
 }
 
 .account-gallery__item a {
-    background: $ui-base-0-color; // spoiler preview
+    background: $aria-ui-0-base-color; // spoiler preview
 }
 
 .followers .account {
-    background: $content-base-color;
+    background: $aria-primary-base-color;
 }
