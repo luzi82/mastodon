@@ -562,8 +562,18 @@ article .status__wrapper {
     color: $aria-primary-front-color; // status txt
 }
 
+.status__content .status__content__spoiler-link, .reply-indicator__content .status__content__spoiler-link {
+    background: $aria-ui-0-base-color;
+    &:hover{
+        background: $aria-ui-0h-base-color;
+    }
+}
+
 .status__content__spoiler-link {
     color: $aria-ui-0-front-color;
+    &:hover{
+        color: $aria-ui-0h-front-color;
+    }
 }
 
 .status-card__title {
@@ -836,4 +846,14 @@ a.detailed-status__datetime {
 
 .account__section-headline a {
     color: $aria-ui-0-front-color;
+}
+
+// mobile, write toot
+
+.floating-action-button {
+    background: $aria-ui-0-front-color;
+}
+
+.floating-action-button:hover {
+    background: $aria-ui-0h-front-color;
 }
