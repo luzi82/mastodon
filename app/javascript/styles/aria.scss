@@ -13,7 +13,7 @@ $aria-hue: 210deg;
 }
 
 $aria-ui-base-color: fs(0.25,0.5);
-$aria-ui-main-base-color: fs(0.382,1/3);
+$aria-ui-main-base-color : fs(0.382,1/3);
 
 $aria-ui--1-base-color: fs(0.05,0.5);
 $aria-ui--1n-base-color: fs(0.05,-0.5);
@@ -27,7 +27,12 @@ $aria-ui-0ah-front-color: fs(0.9,-0.5);
 
 $aria-ui-1-base-color: fs(0.15,0.5);
 $aria-ui-1-front-color: fs(0.7,0.5);
+$aria-ui-1h-base-color: $aria-ui-0-base-color;
+$aria-ui-1h-front-color: $aria-ui-0-front-color;
+$aria-ui-1a-base-color: fs(0.15,-0.5);
 $aria-ui-1n-front-color: fs(0.7,-0.5);
+
+$aria-ui-2-base-color: fs(0.2,0.5);
 
 $aria-ui-link-color: $aria-ui-0-front-color;
 $aria-content-link-color: fs(0.5,1);

@@ -1,0 +1,48 @@
+// left
+
+.admin-wrapper .sidebar ul a {
+    color: $aria-ui-0-front-color;
+    &:hover {
+        color: $aria-ui-0h-front-color;
+    }
+}
+
+.admin-wrapper .sidebar-wrapper {
+    background: $aria-ui-1-base-color;
+}
+
+.admin-wrapper .sidebar ul a.selected {
+    background: $aria-ui-1-front-color;
+    color: $aria-ui-1-base-color;
+    &:hover {
+        background: $aria-ui-0-front-color;
+        color: $aria-ui-0-base-color;
+    }
+}
+
+.admin-wrapper .sidebar ul ul {
+    background: $aria-ui-0-base-color;
+}
+
+.admin-wrapper .sidebar ul ul a.selected {
+    background: $aria-ui-0-front-color;
+    color: $aria-ui-0-base-color;
+    &:hover{
+        background: $aria-ui-0h-front-color;
+        color: $aria-ui-0h-base-color;
+    }
+}
+
+.admin-wrapper .sidebar ul a:hover {
+    background: $aria-ui-0h-base-color;
+}
+
+// right
+
+body.admin {
+    background: $aria-ui-0-base-color;
+}
+
+.admin-wrapper .content h2 {
+    color: $aria-ui-1-front-color;
+}
