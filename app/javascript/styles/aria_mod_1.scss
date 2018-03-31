@@ -58,6 +58,10 @@ a {
     }
 }
 
+body {
+    color: $aria-ui-1-front-color;
+}
+
 // big ui
 
 body.app-body {
@@ -68,7 +72,7 @@ body.app-body {
     background: $aria-ui-main-base-color; // main background
 }
 
-// 
+// left column
 
 .drawer__header {
     background: $aria-ui-0-base-color; //  main page > left column > top background > non hover
@@ -83,6 +87,18 @@ body.app-body {
     &:hover {
         color: $aria-ui-0h-front-color; // main page > left column > top icon > hover
     }
+}
+
+.tabs-bar {
+    background: $aria-ui-0-base-color; // web > mobile > left column > top icon bg
+}
+
+.tabs-bar__link {
+    color: $aria-ui-0-front-color; // web > mobile > left column > top icon
+}
+
+.tabs-bar__link.active {
+    color: $aria-ui-0a-front-color; // web > mobile > left column > top icon > active
 }
 
 // search box
@@ -110,7 +126,7 @@ body.app-body {
     }
 }
 
-// left stuff
+// left stuff 3rd session, top
 
 .drawer__inner {
     background: $aria-ui-0-base-color; // main page > left column > input session > bg
@@ -393,6 +409,15 @@ $drawer__inner__mastodon-base-color: $aria-ui-0-base-color;
     background: $aria-ui-0-base-color; // main page > mid+right column > top > background
 }
 
+.column-back-button {
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-0-front-color; // web > mid+right column > top > back btn
+}
+.column-header__back-button {
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-0-front-color; // web > mid+right column > top > back btn
+}
+
 .column-header > button {
     color: $aria-ui-1-front-color; // main page > mid+right column > top icon+text
 }
@@ -420,6 +445,10 @@ $drawer__inner__mastodon-base-color: $aria-ui-0-base-color;
 
 .column-settings__section {
     color: $aria-ui-1-front-color; // column pref > section title
+}
+
+.column-inline-form {
+    background: $aria-ui-0-base-color;
 }
 
 .react-toggle-track {
@@ -507,6 +536,16 @@ $drawer__inner__mastodon-base-color: $aria-ui-0-base-color;
     color: $aria-ui-link-color; // toot time
 }
 
+.icon-button.overlayed {
+    background: rgba($aria-ui-0-base-color,0.7);// toot CW eye icon bg
+    color: $aria-ui-0-front-color;
+}
+
+.icon-button.overlayed:hover {
+    background: rgba($aria-ui-0h-base-color,0.9);// toot CW eye icon bg, hover
+    color: $aria-ui-0h-front-color;
+}
+
 .column > .scrollable {
     background: $aria-ui-0-base-color; // status bg bg
 }
@@ -537,6 +576,12 @@ article .status__wrapper {
 
 .media-spoiler {
     background: $aria-ui-0-base-color;
+    color: $aria-ui-0-front-color;
+}
+
+.media-spoiler:hover {
+    background: $aria-ui-0h-base-color;
+    color: $aria-ui-0h-front-color;
 }
 
 $status_action_bar_color: $aria-ui-0-front-color;
@@ -767,4 +812,28 @@ a.detailed-status__datetime {
 
 .followers .account {
     background: $aria-primary-base-color;
+}
+
+.account__header .account__header__display-name {
+    color: $aria-userdisplayname-color;
+}
+
+.account__header .account__header__username {
+    color: $aria-useraccountname-color;
+}
+
+.account__action-bar__tab > span {
+    color: $aria-ui-0-front-color;
+}
+
+.account__action-bar__tab strong {
+    color: $aria-primary-front-color;
+}
+
+.account__section-headline a.active {
+    color: $aria-ui-0a-front-color;
+}
+
+.account__section-headline a {
+    color: $aria-ui-0-front-color;
 }
