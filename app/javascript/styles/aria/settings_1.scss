@@ -46,3 +46,94 @@ body.admin {
 .admin-wrapper .content h2 {
     color: $aria-ui-1-front-color;
 }
+
+.simple_form input[type=text], .simple_form input[type=number], .simple_form input[type=email], .simple_form input[type=password], .simple_form textarea {
+    // background-color: $aria-primary-base-color;
+    color: $aria-primary-front-color;
+    border-bottom-color: $aria-ui-0-front-color;
+    &:focus, &:active{
+        background-color: $aria-primary-base-color;
+        color: $aria-primary-front-color;
+        border-bottom-color: $aria-ui-0-front-color;
+    }
+    &::placeholder {
+        color: $aria-placeholder-front-color;
+    }
+}
+
+.simple_form span.hint {
+    color: $aria-ui-1-front-color;
+}
+
+.simple_form .input.with_label .label_input > label {
+    color: $aria-ui-1-front-color;
+}
+
+.simple_form .input.with_block_label > label {
+    color: $aria-ui-1-front-color;
+}
+
+.simple_form .input.with_label.boolean .label_input > label {
+    color: $aria-ui-0-front-color;
+}
+
+.admin-wrapper .content h6 {
+    color: $aria-ui-1-front-color;
+}
+
+.admin-wrapper .content .muted-hint {
+    color: $aria-ui-1-front-color;
+}
+
+.admin-wrapper .content .muted-hint a {
+    color: $aria-ui-0-front-color;
+}
+
+.simple_form button, .simple_form .button, .simple_form .block-button {
+    background-color: $aria-ui-0-front-color;
+    &:hover{
+        background-color: $aria-ui-0h-front-color;
+    }
+}
+
+.simple_form .check_boxes .checkbox label {
+    color: $aria-ui-0-front-color;
+}
+
+.simple_form .input.radio_buttons .radio label {
+    color: $aria-ui-0-front-color;
+}
+
+.admin-wrapper .content > p {
+    color: $aria-ui-1-front-color;
+}
+
+a.table-action-link {
+    color: $aria-ui-0-front-color;
+    &:hover {
+        color: $aria-ui-0h-front-color;
+    }
+}
+
+.admin-wrapper .content > p strong {
+    color: $aria-ui-1-front-color;
+    font-weight: bold;
+}
+
+.button:disabled {
+    background-color: $aria-ui-disable-color;
+    color: $aria-primary-base-color;
+    &:hover, &:focus {
+        background-color: $aria-ui-disable-color;
+        color: $aria-primary-base-color;
+    }
+}
+
+.filters .filter-subset a {
+    color: $aria-ui-0-front-color;
+    border-bottom-color: $aria-ui-0-front-color;
+    &:hover {
+        color: $aria-ui-0h-front-color;
+        border-bottom-color: $aria-ui-0-front-color;
+    }
+}
