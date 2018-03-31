@@ -738,6 +738,8 @@ en:
     default: Default
     mastodon: Mastodon
     column_width: "Mastodon + column width mod"
+    aria: "Aria Blue (testing)"
+    aria_column_width: "Aria Blue + column width mod (testing)"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
