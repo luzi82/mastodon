@@ -3,7 +3,7 @@
 .button {
     background: $aria-ui-0-front-color;
     color: $aria-ui-0-base-color;
-    &:hover{
+    &:hover, &:active, &:focus{
         background: $aria-ui-0h-front-color;
         color: $aria-ui-0h-base-color;
     }
