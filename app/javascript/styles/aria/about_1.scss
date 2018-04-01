@@ -1,0 +1,83 @@
+.landing-page__information, .landing-page__forms, .landing-page #mastodon-timeline {
+    background: $aria-ui-0-base-color;
+}
+
+.simple_form .input-with-append .append {
+    color: $aria-ui-0-front-color;
+}
+
+.simple_form p.hint.subtle-hint {
+    color: $aria-ui-1-front-color;
+}
+
+.simple_form p.hint.subtle-hint a {
+    color: $aria-ui-0-front-color;
+    text-decoration: underline;
+}
+
+.landing-page .separator-or::before {
+    border-bottom-color: $aria-ui-1-front-color;
+}
+
+.landing-page .separator-or span {
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-1-front-color;
+}
+
+.button.button-alternative-2 {
+    background: $aria-ui-0-front-color;
+    color: $aria-ui-0-base-color;
+    &:hover{
+        background: $aria-ui-0h-front-color;
+        color: $aria-ui-0h-base-color;
+    }
+}
+
+.landing-page__short-description h1 {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page__short-description h1 small {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page__short-description h1 small span {
+    color: $aria-ui-0-front-color;
+}
+
+.landing-page p, .landing-page li {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page__call-to-action {
+    background: $aria-ui-0-base-color;
+}
+
+.landing-page .information-board__section {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page .information-board__section span:last-child {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page h3 {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page h6 {
+    color: $aria-ui-1-front-color;
+}
+
+.landing-page .features-list .features-list__row .text {
+    color: $aria-ui-1-front-color;
+}
+
+.button.button-alternative {
+    background: $aria-ui-0-front-color;
+    color: $aria-ui-0-base-color;
+    &:hover{
+        background: $aria-ui-0h-front-color;
+        color: $aria-ui-0h-base-color;
+    }
+}
