@@ -126,6 +126,24 @@ body.app-body {
     }
 }
 
+.search-results__header {
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-1-front-color; // search done, x result header
+}
+
+.search-results__section h5 span {
+    background: $aria-primary-base-color; // search done, search label bg
+    color: $aria-ui-1-front-color; // search done, search label
+}
+
+.search-results__section h5::before {
+    border-top-color: $aria-ui-1-front-color; // search done, search label line
+}
+
+.drawer__inner.darker {
+    background: $aria-primary-base-color; // search done, result list bg
+}
+
 // left stuff 3rd session, top
 
 .drawer__inner {
@@ -856,4 +874,16 @@ a.detailed-status__datetime {
 
 .floating-action-button:hover {
     background: $aria-ui-0h-front-color;
+}
+
+.actions-modal ul li:not(:empty) a {
+    // mobile, write toot, click privacy btn, privacy menu, item
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-0-front-color;
+}
+
+.actions-modal ul li:not(:empty) a.active, .actions-modal ul li:not(:empty) a.active button, .actions-modal ul li:not(:empty) a:hover, .actions-modal ul li:not(:empty) a:hover button, .actions-modal ul li:not(:empty) a:active, .actions-modal ul li:not(:empty) a:active button, .actions-modal ul li:not(:empty) a:focus, .actions-modal ul li:not(:empty) a:focus button {
+    // mobile, write toot, click privacy btn, privacy menu, selected item
+    background: $aria-ui-0a-base-color;
+    color: $aria-ui-0a-front-color;
 }
