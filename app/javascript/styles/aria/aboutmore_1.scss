@@ -1,0 +1,42 @@
+.landing-page .header-wrapper.compact {
+    background: $aria-ui-1-base-color;
+}
+
+.landing-page .header .links ul li:first-child a {
+    color: $aria-ui-0-front-color;
+    &:hover {
+        color: $aria-ui-0h-front-color;
+    }
+}
+
+.landing-page .header .links a {
+    color: $aria-ui-0-front-color;
+    &:hover {
+        color: $aria-ui-0h-front-color;
+    }
+}
+
+.landing-page .information-board {
+    background: $aria-ui-0-base-color;
+}
+
+.landing-page .information-board .panel {
+    background-color: $aria-ui-2-base-color;
+}
+
+.landing-page .information-board .panel .panel-header {
+    color: $aria-ui-1-front-color;
+    border-bottom-color: $aria-ui-1-front-color;
+}
+
+.landing-page .information-board .panel .panel-header a, .landing-page .information-board .panel .panel-header span {
+    color: $aria-ui-0-front-color;
+}
+
+.landing-page .information-board .owner .name .username {
+    color: $aria-useraccountname-color;
+}
+
+body.about-body {
+    background-color: $aria-ui-2-base-color;
+}
