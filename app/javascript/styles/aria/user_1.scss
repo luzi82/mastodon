@@ -1,3 +1,12 @@
+.account-grid-card .controls .icon-button, .card .controls .icon-button {
+    color: rgba($aria-ui-0-front-color, 0.8);
+    &:hover,
+    &:active,
+    &:focus {
+        color: $aria-ui-0-front-color;
+    }
+}
+
 .card .card__bio {
     background: rgba(shift-base($ui-base-color, 8%), 0.8); // top right block bg
 }
