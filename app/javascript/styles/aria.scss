@@ -88,5 +88,11 @@ $ui-highlight-color: $aria-ui-0a-front-color;
     @return if($front-lightness>0.5,darken($c,$p),lighten($c,$p));
 }
 
+@function shift-front($c,$p) {
+    @return if($front-lightness>0.5,lighten($c,$p),darken($c,$p));
+}
+
+$error-value-color: hsl(350deg,71.6%,50%);
+
 @import 'application';
 @import 'aria_mod_1.scss';

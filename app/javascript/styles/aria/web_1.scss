@@ -427,6 +427,14 @@ $drawer__inner__mastodon-base-color: $aria-ui-0-base-color;
     background: $aria-ui-0-base-color; // main page > mid+right column > top > background
 }
 
+.column-header.active {
+    box-shadow: 0 1px 0 rgba($aria-ui-0-front-color, 0.3); // on new toot appear, title underline
+    .column-header__icon {
+        color: $aria-ui-0-front-color; // on new toot appear, icon color
+        text-shadow: 0 0 10px rgba($aria-ui-0-front-color, 0.4); // on new toot appear, icon grow
+    }
+}
+
 .column-back-button {
     background: $aria-ui-0-base-color;
     color: $aria-ui-0-front-color; // web > mid+right column > top > back btn
@@ -848,6 +856,10 @@ a.detailed-status__datetime {
 
 .account__header .account__header__username {
     color: $aria-useraccountname-color;
+}
+
+.account__header .account__header__content {
+    color: $aria-ui-1-front-color; // col user view, description
 }
 
 .account__action-bar__tab > span {

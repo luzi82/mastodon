@@ -1,0 +1,73 @@
+.card .card__bio {
+    background: rgba(shift-base($ui-base-color, 8%), 0.8); // top right block bg
+}
+
+.card .name {
+    color: $aria-userdisplayname-color; // user display name
+}
+
+.card .name small {
+    color: $aria-useraccountname-color; // user account name
+}
+
+// admin tag
+.account-role.admin {
+    color: shift-front($error-value-color, 12%);
+    background-color: rgba(shift-front($error-value-color, 12%), 0.1);
+    border-color: rgba(shift-front($error-value-color, 12%), 0.5);
+}
+
+.account__header__content {
+    color: $aria-ui-1-front-color; // user acc description
+}
+
+.card .counter {
+    border-right: 1px solid shift-front($ui-base-color, 4%);
+}
+
+.card .counter .counter-number {
+    color: $aria-primary-front-color; // user toot / follow stat num
+}
+
+.card .counter a {
+    color: $aria-ui-0-front-color; // user toot / follow stat lable
+}
+
+.activity-stream-tabs a {
+    color: $aria-ui-0-front-color; // toot, post with reply, media
+    &:hover,&:focus,&:active {
+        color: $aria-ui-0h-front-color; // toot, post with reply, media
+    }
+}
+
+.activity-stream-tabs a.active {
+    color: $aria-ui-0a-front-color; // toot, post with reply, media, active
+}
+
+.activity-stream .status.light .display-name strong {
+    color: $aria-userdisplayname-color; // toot user display name
+}
+
+.activity-stream .status.light .display-name span {
+    color: $aria-useraccountname-color; // toot user account name
+}
+
+.activity-stream .status.light .status__content a {
+    color: $aria-content-link-color; // toot content link
+}
+
+.activity-stream .status.light .status__header .status__meta .status__relative-time {
+    color: $aria-ui-link-color; // toot time
+}
+
+.nothing-here {
+    color: $aria-ui-1-front-color; // list empty
+}
+
+.footer .powered-by, .footer .single-user-login {
+    color: $aria-ui-1-front-color; // mastodon.dev 網站由 Mastodon 開發
+}
+
+.footer .domain a {
+    color: $aria-ui-0-front-color; // [mastodon.dev] 網站由 Mastodon 開發
+}
