@@ -101,7 +101,7 @@ zh-HK:
         most_recent: 按時間
         title: 排序
       outbox_url: 寄件箱（Outbox）URL
-      perform_full_suspension: 實行完全暫停
+      perform_full_suspension: 完全停權
       profile_url: 個人檔案 URL
       promote: 升任
       protocol: 協議
