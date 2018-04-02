@@ -73,6 +73,18 @@
     color: $aria-ui-1-front-color; // list empty
 }
 
+.accounts-grid .account-grid-card .name a {
+    color: $aria-userdisplayname-color; // follow list, display name
+}
+
+.accounts-grid .account-grid-card .username {
+    color: $aria-useraccountname-color; // follow list, account name
+}
+
+.accounts-grid .account-grid-card .account__header__content {
+    color: $aria-ui-1-front-color; // follow list, account description
+}
+
 .footer .powered-by, .footer .single-user-login {
     color: $aria-ui-1-front-color; // mastodon.dev 網站由 Mastodon 開發
 }
