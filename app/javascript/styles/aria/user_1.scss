@@ -85,6 +85,19 @@
     color: $aria-ui-1-front-color; // follow list, account description
 }
 
+.account__header__content a {
+    color: $aria-content-link-color; // follow list, account description, link
+}
+
+.pagination .current, .pagination .gap, .pagination .newer, .pagination .older, .pagination .page, .pagination a {
+    color: $aria-ui-0-front-color; // follower page txt
+}
+
+.pagination .current {
+    background-color: $aria-ui-0-front-color; // follower page circle
+    color: $aria-ui-0-base-color; // follower page txt selected
+}
+
 .footer .powered-by, .footer .single-user-login {
     color: $aria-ui-1-front-color; // mastodon.dev 網站由 Mastodon 開發
 }
