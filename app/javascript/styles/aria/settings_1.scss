@@ -141,3 +141,32 @@ a.table-action-link {
 .flash-message {
     color: $aria-ui-1-front-color;
 }
+
+.table a {
+    color: $aria-ui-link-color;
+}
+
+.log-entry__header {
+    background: $aria-ui--1-base-color; // operation log bg
+    color: $aria-ui-1-front-color;
+}
+
+.log-entry .target, .log-entry .username {
+    color: $aria-userdisplayname-color;
+}
+
+.log-entry a {
+    color: $aria-ui-link-color;
+}
+
+.log-entry__timestamp {
+    color: $aria-ui-1-front-color;
+}
+
+.log-entry__icon {
+    color: $aria-ui-1-front-color;
+}
+
+.log-entry__icon__overlay.neutral {
+      background: $aria-ui-0-front-color;
+}

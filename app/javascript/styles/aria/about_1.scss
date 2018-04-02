@@ -81,3 +81,14 @@
         color: $aria-ui-0h-base-color;
     }
 }
+
+.landing-page #mastodon-timeline p {
+    color: $aria-primary-front-color; // preview timeline txt
+    a {
+        color: $aria-content-link-color; // preview timeline txt link
+    }
+}
+
+.landing-page em {
+    color: $aria-ui-1-front-color;
+}

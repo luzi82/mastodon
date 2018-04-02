@@ -2,6 +2,10 @@
     background: $aria-ui-1-base-color;
 }
 
+.landing-page .header-wrapper.compact .hero .heading a {
+    color: $aria-ui-link-color; // top intro
+}
+
 .landing-page .header .links ul li:first-child a {
     color: $aria-ui-0-front-color;
     &:hover {
@@ -33,10 +37,21 @@
     color: $aria-ui-0-front-color;
 }
 
+.landing-page .information-board .owner .name a {
+    color: $aria-userdisplayname-color; // contact display name
+}
+
 .landing-page .information-board .owner .name .username {
     color: $aria-useraccountname-color;
 }
 
 body.about-body {
     background-color: $aria-ui-2-base-color;
+}
+
+.landing-page .extended-description {
+    color: $aria-ui-1-front-color;
+    a {
+        color: $aria-ui-link-color;
+    }
 }
