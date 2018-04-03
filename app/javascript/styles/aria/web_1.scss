@@ -899,3 +899,12 @@ a.detailed-status__datetime {
     background: $aria-ui-0a-base-color;
     color: $aria-ui-0a-front-color;
 }
+
+.regeneration-indicator {
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-1-front-color; // 無法找到內容
+}
+
+.regeneration-indicator__label strong {
+    color: $aria-ui-1-front-color; // 找不到內容
+}
