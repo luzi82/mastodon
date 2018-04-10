@@ -1,5 +1,6 @@
 default: styles/default.scss
 mastodon: styles/application.scss
 column_width: styles/column_width.scss
+pawoo_column: styles/pawoo_column.scss
 aria: styles/aria.scss
 aria_column_width: styles/aria_column_width.scss

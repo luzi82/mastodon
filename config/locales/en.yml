@@ -738,6 +738,7 @@ en:
     default: Default
     mastodon: Mastodon
     column_width: "Mastodon + column width mod"
+    pawoo_column: "Mastodon + pawoo column mod"
     aria: "Aria Blue (testing)"
     aria_column_width: "Aria Blue + column width mod (testing)"
   time:
