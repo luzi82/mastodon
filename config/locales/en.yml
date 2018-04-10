@@ -737,10 +737,11 @@ en:
   themes:
     default: Default
     mastodon: Mastodon
-    column_width: "Mastodon + column width mod"
-    pawoo_column: "Mastodon + pawoo column mod"
+    column_width: "Mastodon + column width mod (testing)"
+    pawoo_column: "Mastodon + pawoo column mod (testing)"
     aria: "Aria Blue (testing)"
     aria_column_width: "Aria Blue + column width mod (testing)"
+    aria_pawoo_column: "Aria Blue + pawoo column mod (testing)"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"

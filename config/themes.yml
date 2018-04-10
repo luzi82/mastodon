@@ -4,3 +4,4 @@ column_width: styles/column_width.scss
 pawoo_column: styles/pawoo_column.scss
 aria: styles/aria.scss
 aria_column_width: styles/aria_column_width.scss
+aria_pawoo_column: styles/aria_pawoo_column.scss
