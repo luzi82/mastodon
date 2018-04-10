@@ -1,1 +1,2 @@
 default: styles/application.scss
+pawoo_column: styles/pawoo_column.scss
