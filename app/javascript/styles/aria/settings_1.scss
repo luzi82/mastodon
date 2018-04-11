@@ -47,6 +47,11 @@ body.admin {
     color: $aria-ui-1-front-color;
 }
 
+.admin-wrapper .content h4 {
+    color: $aria-ui-1-front-color;
+    border-bottom-color: $aria-ui-2-front-color;
+}
+
 .simple_form input[type=text], .simple_form input[type=number], .simple_form input[type=email], .simple_form input[type=password], .simple_form textarea {
     // background-color: $aria-primary-base-color;
     color: $aria-primary-front-color;
@@ -62,6 +67,10 @@ body.admin {
 }
 
 .simple_form span.hint {
+    color: $aria-ui-1-front-color;
+}
+
+.simple_form p.hint {
     color: $aria-ui-1-front-color;
 }
 
@@ -168,5 +177,13 @@ a.table-action-link {
 }
 
 .log-entry__icon__overlay.neutral {
-      background: $aria-ui-0-front-color;
+    background: $aria-ui-0-front-color;
+}
+
+.log-entry__extras {
+    color: $aria-ui-1-front-color;
+}
+
+.log-entry .diff-neutral {
+    color: $aria-ui-1-front-color;
 }

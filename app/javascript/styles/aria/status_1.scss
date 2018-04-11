@@ -1,0 +1,27 @@
+.activity-stream .detailed-status.light .detailed-status__display-name .display-name strong {
+    color: $aria-userdisplayname-color;
+}
+
+.activity-stream .detailed-status.light .detailed-status__display-name .display-name span {
+    color: $aria-useraccountname-color;
+}
+
+.activity-stream .detailed-status.light .status__content a {
+    color: $aria-content-link-color;
+}
+
+.activity-stream .detailed-status.light .status-card__description, .activity-stream .detailed-status.light .status-card__title {
+    color: $aria-ui-0-front-color;
+}
+
+.activity-stream .detailed-status.light .status-card {
+    color: $aria-ui-1-front-color;
+}
+
+.activity-stream .detailed-status.light .detailed-status__meta a {
+    color: $aria-ui-0-front-color;
+}
+
+.activity-stream .detailed-status.light .detailed-status__meta {
+    color: $aria-ui-1-front-color;
+}

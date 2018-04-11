@@ -603,11 +603,15 @@ article .status__wrapper {
 }
 
 .status-card__title {
-    color: $aria-ui-1-front-color;
+    color: $aria-ui-0-front-color;
+}
+
+.status-card__description {
+    color: $aria-ui-0-front-color;
 }
 
 .status-card {
-    color: $aria-ui-0-front-color;
+    color: $aria-ui-1-front-color;
 }
 
 .media-spoiler {
@@ -898,4 +902,13 @@ a.detailed-status__datetime {
     // mobile, write toot, click privacy btn, privacy menu, selected item
     background: $aria-ui-0a-base-color;
     color: $aria-ui-0a-front-color;
+}
+
+.regeneration-indicator {
+    background: $aria-ui-0-base-color;
+    color: $aria-ui-1-front-color; // 無法找到內容
+}
+
+.regeneration-indicator__label strong {
+    color: $aria-ui-1-front-color; // 找不到內容
 }
