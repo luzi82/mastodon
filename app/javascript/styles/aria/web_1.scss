@@ -603,11 +603,15 @@ article .status__wrapper {
 }
 
 .status-card__title {
-    color: $aria-ui-1-front-color;
+    color: $aria-ui-0-front-color;
+}
+
+.status-card__description {
+    color: $aria-ui-0-front-color;
 }
 
 .status-card {
-    color: $aria-ui-0-front-color;
+    color: $aria-ui-1-front-color;
 }
 
 .media-spoiler {
