@@ -1,4 +1,5 @@
 default: styles/default.scss
+contrast: styles/contrast.scss
 mastodon: styles/application.scss
 column_width: styles/column_width.scss
 pawoo_column: styles/pawoo_column.scss
